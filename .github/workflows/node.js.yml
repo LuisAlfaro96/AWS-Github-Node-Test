@@ -10,7 +10,7 @@ on:
 jobs:
   build:
 
-    runs-on: self-hosted
+    runs-on: self-hosted #self hosted because i will use a AWS EC2 instance to deploy my Main branch.
 
     strategy:
       matrix:
